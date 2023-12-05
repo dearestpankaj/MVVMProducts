@@ -24,6 +24,7 @@
 		15CF6C6C2B1F89F90071DB15 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15CF6C6A2B1F89F90071DB15 /* ProductCell.xib */; };
 		15CF6C6F2B1F950F0071DB15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 15CF6C6E2B1F950F0071DB15 /* Kingfisher */; };
 		15CF6C712B1F95450071DB15 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C702B1F95450071DB15 /* UIImageView+Extension.swift */; };
+		15CF6C752B1FAF9D0071DB15 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C742B1FAF9D0071DB15 /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		15CF6C692B1F89F90071DB15 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		15CF6C6A2B1F89F90071DB15 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		15CF6C702B1F95450071DB15 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		15CF6C742B1FAF9D0071DB15 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		15CF6C1F2B1F47350071DB15 /* MVVMProducts */ = {
 			isa = PBXGroup;
 			children = (
+				15CF6C732B1FAF850071DB15 /* Utility */,
 				15CF6C562B1F4A710071DB15 /* Resources */,
 				15CF6C552B1F4A6E0071DB15 /* Storyboard */,
 				15CF6C542B1F4A6C0071DB15 /* Extensions */,
@@ -244,6 +247,14 @@
 				15CF6C242B1F47350071DB15 /* ProductListViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		15CF6C732B1FAF850071DB15 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				15CF6C742B1FAF9D0071DB15 /* EndPointType.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CF6C752B1FAF9D0071DB15 /* EndPointType.swift in Sources */,
 				15CF6C642B1F5D410071DB15 /* ProductViewModel.swift in Sources */,
 				15CF6C252B1F47350071DB15 /* ProductListViewController.swift in Sources */,
 				15CF6C5B2B1F4BD80071DB15 /* Product.swift in Sources */,

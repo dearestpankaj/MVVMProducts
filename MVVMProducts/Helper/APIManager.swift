@@ -14,14 +14,21 @@ enum DataError: Error {
     case network(Error?)
 }
 
-typealias Handler = (Result<[Product], DataError>) -> Void
+typealias Handler<T> = (Result<T, DataError>) -> Void
 
 final class APIManager {
     static let shared = APIManager()
     private init() { }
     
-    func fetchProducts(completion: @escaping Handler) {
-        guard let url = URL(string: Constant.API.productURL) else { return }
+    func request<T: Decodable>(
+        modelType: T.Type,
+        type: EndPointType,
+        completion: @escaping Handler<T>
+    ) {
+        guard let url = type.url else {
+            completion(.failure(.invalidURL))
+            return
+        }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data, error == nil else {
@@ -36,12 +43,11 @@ final class APIManager {
             }
             
             do {
-                let products = try JSONDecoder().decode([Product].self, from: data)
+                let products = try JSONDecoder().decode(modelType, from: data)
                 completion(.success(products))
             } catch {
                 completion(.failure(.network(error)))
             }
         }.resume()
-        
     }
 }
