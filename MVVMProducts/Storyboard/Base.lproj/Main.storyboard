@@ -35,7 +35,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BoX-xg-tuQ" secondAttribute="trailing" id="xtJ-ku-4cU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Products" id="tHr-c6-tg8"/>
+                    <navigationItem key="navigationItem" title="Products" id="tHr-c6-tg8">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="BMa-6a-ndn">
+                            <connections>
+                                <action selector="addProductButtonTapped:" destination="BYZ-38-t0r" id="gi5-zB-OvA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="productTableView" destination="BoX-xg-tuQ" id="YER-Wh-87W"/>
                     </connections>
@@ -43,6 +49,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1038.9312977099237" y="-2.1126760563380285"/>
+        </scene>
+        <!--Add Products View Controller-->
+        <scene sceneID="yHb-jS-rVG">
+            <objects>
+                <viewController id="BRR-oD-AL1" customClass="AddProductsViewController" customModule="MVVMProducts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QZZ-7v-xrk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="T7l-u0-5kj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGg-jc-jm8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1949" y="41"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DJp-0o-gvU">

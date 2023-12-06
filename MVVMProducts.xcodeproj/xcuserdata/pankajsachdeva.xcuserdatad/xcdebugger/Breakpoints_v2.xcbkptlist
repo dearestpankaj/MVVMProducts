@@ -3,4 +3,118 @@
    uuid = "13DBD8C5-87BC-404D-8991-FFECEBA80F9B"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "659E367D-5649-460F-A233-266762FC9BD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMProducts/Screens/Product/ViewModel/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "addProduct(parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "659E367D-5649-460F-A233-266762FC9BD5 - 533f524d4ede0632"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMProducts.ProductViewModel.addProduct(parameters: MVVMProducts.AddProduct) -&gt; ()"
+                  moduleName = "MVVMProducts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/MVVMProducts/MVVMProducts/Screens/Product/ViewModel/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "659E367D-5649-460F-A233-266762FC9BD5 - a08453d6f7a81073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MVVMProducts.AddProduct, MVVMProducts.DataError&gt;) -&gt; () in MVVMProducts.ProductViewModel.addProduct(parameters: MVVMProducts.AddProduct) -&gt; ()"
+                  moduleName = "MVVMProducts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/MVVMProducts/MVVMProducts/Screens/Product/ViewModel/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2357EF50-617A-4667-8D7F-D8B4582FB69F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMProducts/Screens/Product/View/Controller/ProductListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "addProductButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2357EF50-617A-4667-8D7F-D8B4582FB69F - b5f0683df7adf005"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMProducts.ProductListViewController.addProductButtonTapped(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "MVVMProducts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/MVVMProducts/MVVMProducts/Screens/Product/View/Controller/ProductListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2357EF50-617A-4667-8D7F-D8B4582FB69F - b5f0683df7adf005"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMProducts.ProductListViewController.addProductButtonTapped(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "MVVMProducts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankajsachdeva/Desktop/HD/work/MVVMProducts/MVVMProducts/Screens/Product/View/Controller/ProductListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE7482A1-D781-4561-A358-0E75AC2BE0FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMProducts/Screens/Product/ViewModel/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "addProduct(parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

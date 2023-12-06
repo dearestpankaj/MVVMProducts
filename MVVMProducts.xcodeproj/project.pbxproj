@@ -25,6 +25,9 @@
 		15CF6C6F2B1F950F0071DB15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 15CF6C6E2B1F950F0071DB15 /* Kingfisher */; };
 		15CF6C712B1F95450071DB15 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C702B1F95450071DB15 /* UIImageView+Extension.swift */; };
 		15CF6C752B1FAF9D0071DB15 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C742B1FAF9D0071DB15 /* EndPointType.swift */; };
+		15CF6C782B1FCAED0071DB15 /* AddProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C772B1FCAED0071DB15 /* AddProductsViewController.swift */; };
+		15CF6C7A2B203FD60071DB15 /* ProductEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C792B203FD60071DB15 /* ProductEndPoint.swift */; };
+		15CF6C7C2B20401F0071DB15 /* AddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CF6C7B2B20401F0071DB15 /* AddProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		15CF6C6A2B1F89F90071DB15 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		15CF6C702B1F95450071DB15 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		15CF6C742B1FAF9D0071DB15 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		15CF6C772B1FCAED0071DB15 /* AddProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductsViewController.swift; sourceTree = "<group>"; };
+		15CF6C792B203FD60071DB15 /* ProductEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEndPoint.swift; sourceTree = "<group>"; };
+		15CF6C7B2B20401F0071DB15 /* AddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		15CF6C512B1F4A640071DB15 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				15CF6C762B1FCABB0071DB15 /* AddProduct */,
 				15CF6C582B1F4A850071DB15 /* Product */,
 			);
 			path = Screens;
@@ -219,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				15CF6C5A2B1F4BD80071DB15 /* Product.swift */,
+				15CF6C7B2B20401F0071DB15 /* AddProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,8 +261,17 @@
 			isa = PBXGroup;
 			children = (
 				15CF6C742B1FAF9D0071DB15 /* EndPointType.swift */,
+				15CF6C792B203FD60071DB15 /* ProductEndPoint.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		15CF6C762B1FCABB0071DB15 /* AddProduct */ = {
+			isa = PBXGroup;
+			children = (
+				15CF6C772B1FCAED0071DB15 /* AddProductsViewController.swift */,
+			);
+			path = AddProduct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,12 +415,15 @@
 				15CF6C752B1FAF9D0071DB15 /* EndPointType.swift in Sources */,
 				15CF6C642B1F5D410071DB15 /* ProductViewModel.swift in Sources */,
 				15CF6C252B1F47350071DB15 /* ProductListViewController.swift in Sources */,
+				15CF6C782B1FCAED0071DB15 /* AddProductsViewController.swift in Sources */,
 				15CF6C5B2B1F4BD80071DB15 /* Product.swift in Sources */,
 				15CF6C712B1F95450071DB15 /* UIImageView+Extension.swift in Sources */,
 				15CF6C5E2B1F4CD50071DB15 /* APIManager.swift in Sources */,
 				15CF6C212B1F47350071DB15 /* AppDelegate.swift in Sources */,
 				15CF6C6B2B1F89F90071DB15 /* ProductCell.swift in Sources */,
+				15CF6C7C2B20401F0071DB15 /* AddProduct.swift in Sources */,
 				15CF6C232B1F47350071DB15 /* SceneDelegate.swift in Sources */,
+				15CF6C7A2B203FD60071DB15 /* ProductEndPoint.swift in Sources */,
 				15CF6C602B1F53EA0071DB15 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
